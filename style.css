@@ -99,6 +99,37 @@ width: 7rem;
     justify-content: right;
     align-items: start;
 }
+
+@media screen and (max-width:765px) {
+    .description {
+        padding-top: 6rem;
+    }
+    .cust-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .desc-sec {
+        height: 22rem;        
+    }
+    .img-sec {
+        display: flex;
+        align-items: center;
+    }
+    .img2 {
+        margin-top: 0rem;
+        margin-left: 1rem;
+    
+    }
+    .image2 {
+        height: 16.2rem;
+    }
+    .img3-sec {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    
+}
 /* second section */
 .under-line {
     width: 150px;
@@ -197,6 +228,14 @@ width: 7rem;
     .swap {
         padding-top: 2rem;
     }
+    .under-line {
+        margin-bottom: 1rem;
+        width: 150px;
+    height: 0.2rem;
+    background-color: #282121;
+    display: inline-block;
+    
+    }
 }
 
 /* third section new arrival carousel */
@@ -286,7 +325,50 @@ width: 7rem;
     transition: opacity .15s ease; 
 }
 
-
+@media screen and (max-width:765px) {
+    
+    .cust-carousel-item{
+        transition: none;
+    }
+    .cust-card-wrapper {
+        
+        padding-bottom: 14rem;
+        display: flex;
+        justify-content: center;
+        height: 10rem;
+    }
+    .cust-img-card{
+        
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        width: 7.5rem;
+        height: 11rem;
+        border-radius: 0.3rem;
+        background-color: #f3ecec;
+        
+    }
+    .cust-card-body{
+        display: none;
+    }
+    .cust-card {
+        padding-top: 0rem;
+        width: 5rem;
+        height: 7rem;
+    }
+    .cust-cur-item{
+        display: flex;
+        justify-content: center;
+    }
+    .active{
+        margin-top: 1rem;
+    }
+    .head-title {
+        padding-top: 65px;
+    }
+    .slide-button{
+        display: none;
+    }
+}
 /* next */
 .test{
     background-color: aqua;
