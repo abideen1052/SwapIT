@@ -1,34 +1,28 @@
-* {
+*{
     font-family: 'Open Sans', sans-serif;
 }
-
-/* navbar */
-.cust-bg {
+.cust-bg{
     background-color: #282121;
 }
-
-.cust-dropdown {
+.cust-dropdown{
     padding-top: 2rem;
     margin: 0.8rem;
 
 }
-
-.profile {
+.profile{
     width: 2rem;
     height: 2rem;
     padding-top: 0.4rem;
     margin: 0.8rem;
 }
-
-.cust-item {
+.cust-item{
     padding-left: 1rem;
     font-size: 14px;
 }
-
-.logo {
+.logo{
 
     height: 3rem;
-    width: 7rem;
+width: 7rem;
 }
 /* home section */
 .desc-sec {
