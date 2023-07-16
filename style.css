@@ -1,6 +1,13 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .cust-bg{
     background-color: #282121;
 }
@@ -335,6 +342,7 @@ width: 7rem;
     .w-card-section{
         display: none;
     }
+    
     .cust-img-card{
         
         margin-left: -4.5rem;
@@ -420,6 +428,42 @@ width: 7rem;
     background-color: #f3ecec;
     padding: 2rem;
     
+}
+.trend-m-card-section{
+    display: none;
+}
+@media screen and (max-width:765px) {
+    .trend-m-card-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 85rem;
+        margin-top: -2rem;
+    }
+    .trend-m-cust-card{
+        background-color: #f3ecec;
+        margin-top: 1rem;
+    }
+    .trend-m-img-card{
+        margin-top: 3rem;
+        width: 13rem;
+        height: 15rem;
+        background-color: #f3ecec;
+    }
+    .trend-m-card-body{
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        background-color: #dfd7d7;
+        
+    }
+    .trend-m-card-title{
+        margin-top: 1rem;
+        
+    }
+    .trend-btn{
+        margin-bottom: 1rem;
+    }
 }
 
 /* Footer */
