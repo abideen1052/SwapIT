@@ -135,7 +135,7 @@ width: 7rem;
         justify-content: center;
         padding-top: 1rem;
     }
-    
+   
 }
 /* second section */
 .under-line {
@@ -193,7 +193,7 @@ width: 7rem;
 }
 
 .wish-sec button {
-    width: 5rem;
+    width: 6rem;
     border: none;
     padding: 0.4rem;
     font-size: 0.7rem;
@@ -273,9 +273,12 @@ width: 7rem;
 
 
 .cust-card-body{
-    width: 18rem;
+    width: 16rem;
     height: 5rem;
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    
 }
 .cust-card-body span{
     margin-left: 5rem;
@@ -354,7 +357,7 @@ width: 7rem;
         
     }
     .cust-card-title{
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .cust-card {
         padding-top: 0rem;
