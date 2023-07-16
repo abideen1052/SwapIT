@@ -325,35 +325,33 @@ width: 7rem;
     transition: opacity .15s ease; 
 }
 
-@media screen and (max-width:765px) {
-    
-    .cust-carousel-item{
-        transition: none;
+@media screen and (min-width:765px){
+    .m-card-section{
+        display: none;
     }
-    .cust-card-wrapper {
-        
-        padding-bottom: 14rem;
-        display: flex;
-        justify-content: center;
-        height: 10rem;
+}
+
+@media screen and (max-width:765px) {
+    .w-card-section{
+        display: none;
     }
     .cust-img-card{
         
-        margin-left: 0.5rem;
+        margin-left: -4.5rem;
         margin-top: 0.5rem;
-        width: 7.5rem;
-        height: 11rem;
+        width: 11rem;
+        height: 13rem;
         border-radius: 0.3rem;
         background-color: #f3ecec;
         
     }
-    .cust-card-body{
-        display: none;
+    .cust-card-title{
+        margin-left: 3rem;
     }
     .cust-card {
         padding-top: 0rem;
-        width: 5rem;
-        height: 7rem;
+        width: 7rem;
+        height: 8rem;
     }
     .cust-cur-item{
         display: flex;
@@ -367,6 +365,10 @@ width: 7rem;
     }
     .slide-button{
         display: none;
+    }
+    .m-card-section{
+        display: flex;
+        margin-bottom: 10rem;
     }
 }
 /* sell section */
